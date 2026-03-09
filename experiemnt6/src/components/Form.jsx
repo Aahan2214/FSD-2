@@ -61,7 +61,7 @@ const handleSubmit = (e)=>{
 console.log('Form')
     return(
         <>
-        <h2>Form Validation using MUI components.</h2>
+        <h2>Form Validation.</h2>
         <Box component = "form" onSubmit={handleSubmit} >
             <Stack spacing={2}>
                 <TextField required label="Username" value = {uname} onChange={handleUname}
