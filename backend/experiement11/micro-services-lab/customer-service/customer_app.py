@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 import requests
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 customers = {
     101: {"id": 101, "name": "Customer-1", "email": "customer-1@example.com"},
@@ -43,5 +43,5 @@ def home():
     return jsonify({"service": "Customer Service Running"})
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     app.run(port=5001, debug=True)
