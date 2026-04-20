@@ -65,13 +65,7 @@ GET /customers/<user_id>/orders
 
 This API fetches customer details and calls the Order Service internally to retrieve order data.
 
----
-
-## 🌐 Deployment Links
-
-* Customer Service: https://your-customer-service.onrender.com
-* Order Service: https://your-order-service.onrender.com
-
+-
 ---
 
 ## 🧪 Testing (Postman)
